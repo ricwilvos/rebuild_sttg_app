@@ -1,0 +1,2 @@
+module PhotOsHelper
+end

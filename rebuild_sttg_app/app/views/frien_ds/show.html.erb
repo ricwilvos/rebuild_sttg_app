@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Profile:</strong>
+  <%= @friend.profile_id %>
+</p>
+
+<p>
+  <strong>Friend with:</strong>
+  <%= @friend.friend_with_id %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @friend.status %>
+</p>
+
+<%= link_to 'Edit', edit_friend_path(@friend) %> |
+<%= link_to 'Back', friends_path %>
